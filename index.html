@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>
+    Waleed Hassan | Full-stack Developer
+  </title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="shortcut icon" href="src/img/favicon.png" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap">
+  <link rel="stylesheet" href="src/app/css/uikit-custom.min.css" />
+  <link rel="stylesheet" href="src/app/css/app.css" />
+</head>
+
+<body id="body-app" class="yb-dark-skin uk-light">
+  <!-- page loader -->
+  <div id="pageloader" class="yb-pageloader-wrapper">
+    <div class="uk-position-center  uk-text-center">
+      <div data-uk-spinner></div>
+    </div>
+  </div><!-- end page loader -->
+  <!-- main header -->
+  <header class="yb-main-header" id="main-header">
+
+    <!-- home section -->
+    <div class="yb-full-height " id="home">
+
+
+
+      <section class="yb-profile-desc">
+        <div class="yb-section-point-wrapper" data-uk-parallax="opacity: 1, 0;">
+          <div class="uk-container">
+            <div class="yb-section-point">
+              <sup>01</sup>
+              <span>Welcome</span>
+            </div>
+          </div>
+        </div>
+        <div class="yb-graphics">
+          <div class="yb-graphic-1" data-uk-parallax="blur: 0,30;"></div>
+          <div class="yb-graphic-2" data-uk-parallax="blur: 0,30;"></div>
+        </div>
+        <div class="uk-container uk-text-center yb-profile-desc-wrap uk-position-relative">
+          <img src="src/img/x1.png" alt="" width="60" />
+          <h1 class="uk-text-bold yb-gradient-text"><span>Waleed</span> <span>Hassan</span></h1>
+          <div class="uk-text-bold yb-myjob">
+            I am a <span id="typed" class="typed"></span>
+          </div>
+        </div>
+      </section>
+
+    </div><!-- end home section -->
+
+    <!-- main menu -->
+    <nav class="yb-main-menu " id="main-menu">
+      <div class="uk-container" data-uk-navbar>
+        <div class="uk-navbar-left">
+          <a class="yb-logo uk-navbar-item uk-logo" href="dark-index.html"><span>Waleed</span></a>
+        </div>
+        <div class="uk-navbar-right uk-hidden@m">
+          <a class="uk-navbar-toggle" href="#" id="btn-menu-toggle">
+            <span data-uk-navbar-toggle-icon class="yb-icon-menu"></span>
+            <span data-uk-icon="close" class="yb-icon-close"></span>
+          </a>
+        </div>
+        <div class="yb-menu-toggle-wrapper" id="menucollapse">
+          <div class="uk-navbar-center">
+            <ul class="uk-navbar-nav" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 79 ">
+              <li>
+                <a class="yb-inner-link" href="#home"> Home </a>
+              </li>
+              <li>
+                <a class="yb-inner-link" href="#about"> About</a>
+              </li>
+              <li>
+                <a class="yb-inner-link" href="#resume"> Resume </a>
+              </li>
+              <li>
+                <a class="yb-inner-link" href="#portfolio"> Portfolio </a>
+              </li>
+              <li>
+                <a class="yb-inner-link" href="#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
+          <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav yb-social-icons">
+              <li>
+                <a href="https://github.com/gambeetw">
+                  <span class="uk-icon " data-uk-icon="icon: github"></span>
+                </a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/waleed-hassan1/">
+                  <span class="uk-icon" data-uk-icon="icon: linkedin"></span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav><!-- end main menu -->
+  </header><!-- end main header -->
+  <!-- main section -->
+  <main class="yb-main-content">
+    <!-- about section -->
+    <section id="about" class="yb-section">
+      <div class="yb-my-profile">
+        <div class="uk-container">
+          <div class="uk-grid-collapse uk-child-width-expand@m" data-uk-grid>
+            <div>
+              <div class="yb-my-profile-img uk-background-cover uk-background-norepeat uk-background-top-center" data-src="src/img/profile.jpg" data-uk-img data-uk-lightbox>
+              </div>
+            </div>
+            <div>
+              <div class="yb-my-profile-desc">
+                <div class="yb-section-point-wrapper">
+                  <div class="yb-section-point right">
+                    <sup>02</sup>
+                    <span>About</span>
+                  </div>
+                </div>
+                <div class="yb-my-profile-desc-top">
+                  <h2 class="yb-section-title">Hello There!</h2>
+                  <p>
+                    I'm Waleed, a dedicated full-stack developer from Pakistan.
+                    I specialize in server-side development, focusing on creating robust, scalable, and efficient systems.
+                  </p>
+                  <p>
+                    My passion for backend technologies drives me to develop secure and high-performing applications that form
+                    the backbone of seamless digital experiences.
+                    Whether it's optimizing databases or crafting efficient APIs,
+                    I strive to build solutions that not only meet but exceed user expectations.
+                  </p>
+                </div>
+                <div class="yb-my-profile-desc-bottom yb-bg-soft">
+                  <ul class="yb-my-profile-desc-info uk-list">
+                    <li>
+                      <span>Email</span> : wzhassan47@gmail.com
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="yb-border-top yb-border-bottom ">
+        <div class="uk-container">
+          <div data-uk-grid class="yb-box-services uk-child-width-1-4@l uk-child-width-1-2 uk-text-center uk-grid-divider">
+            <div>
+              <div class="yb-box-service">
+                <span class="uk-icon" data-uk-icon="icon: laptop; ratio: 1.5"></span>
+                <h5>Web Development</h5>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-service">
+                <span class="uk-icon" data-uk-icon="icon: paint-bucket; ratio: 1.5"></span>
+                <h5>Web Designing</h5>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-service">
+                <span class="uk-icon" data-uk-icon="icon: bolt; ratio: 1.5"></span>
+                <h5>Performance Optimization</h5>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-service">
+                <span class="uk-icon" data-uk-icon="icon: database; ratio: 1.5"></span>
+                <h5>Database Management</h5>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-service">
+                <span class="uk-icon" data-uk-icon="icon: git-branch; ratio: 1.5"></span>
+                <h5>Third-party Integration</h5>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-service">
+                <span class="uk-icon" data-uk-icon="icon: lock; ratio: 1.5"></span>
+                <h5>Security & Compliance</h5>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-service">
+                <span class="uk-icon" data-uk-icon="icon: cog; ratio: 1.5"></span>
+                <h5>Microservices Architecture</h5>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-service">
+                <span class="uk-icon" data-uk-icon="icon: code; ratio: 1.5"></span>
+                <h5>Testing</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- end about section -->
+    <!-- resume section -->
+    <section class="yb-section " id="resume">
+      <div class="yb-section-point-wrapper">
+        <div class="uk-container">
+          <div class="yb-section-point">
+            <sup>03</sup>
+            <span>Resume</span>
+          </div>
+        </div>
+      </div>
+      <div class="uk-container">
+        <div data-uk-grid class="uk-grid-divider">
+          <div class="uk-width-1-4@s uk-visible@s uk-margin-large-bottom yb-section-padding-top " id="resume-nav-wrapper">
+            <div data-uk-sticky="bottom: #resume-nav-wrapper; offset: 100; media: 650">
+              <ul class="yb-nav-left uk-tab-left uk-tab" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120">
+                <li>
+                  <a href="#experience" class="yb-inner-link" data-offset="120">
+                    <span data-uk-icon="minus"></span>
+                    Experience
+                  </a>
+                </li>
+                <li>
+                  <a href="#skills" class="yb-inner-link" data-offset="120">
+                    <span data-uk-icon="minus"></span>
+                    Skills
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="uk-width-expand@s yb-section-padding-top">
+            <div>
+              <h2 class="yb-section-title  uk-heading-line " id="experience">
+                <span>Experience</span>
+              </h2>
+              <div class="yb-resume-list">
+                <ul class="uk-list uk-list-large uk-list-divider">
+                  <li>
+                    <div class="yb-resume-item">
+                      <div class="yb-resume-item-date">
+                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                        <div class="yb-resume-item-date-text"><span>May 2023 - Present</span></div>
+                      </div>
+                      <h4 class="yb-section-title">Senior Software Engineer</h4>
+                      <h5>Khyber Pakhtunkhwa Information Technology Board</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-item">
+                      <div class="yb-resume-item-date">
+                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                        <div class="yb-resume-item-date-text"><span>Dec 2022 - Jun 2023</span></div>
+                      </div>
+                      <h4 class="yb-section-title">Software Engineer</h4>
+                      <h5>Cache Cloud</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-item">
+                      <div class="yb-resume-item-date">
+                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                        <div class="yb-resume-item-date-text"><span>Feb 2019 - Jan 2023</span></div>
+                      </div>
+                      <h4 class="yb-section-title">Software Engineer</h4>
+                      <h5>Pixako Technologies</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-item">
+                      <div class="yb-resume-item-date">
+                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                        <div class="yb-resume-item-date-text"><span>Apr 2021 - Jul 2022</span></div>
+                      </div>
+                      <h4 class="yb-section-title">Senior Software Engineer</h4>
+                      <h5>Vfairs</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-item">
+                      <div class="yb-resume-item-date">
+                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                        <div class="yb-resume-item-date-text"><span>Oct 2017 - Feb 2019</span></div>
+                      </div>
+                      <h4 class="yb-section-title">LAMP Stack Developer</h4>
+                      <h5>iPlex</h5>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="yb-resume-item">
+                      <div class="yb-resume-item-date">
+                        <div class="yb-resume-item-date-icon"> <span data-uk-icon="calendar"></span></div>
+                        <div class="yb-resume-item-date-text"><span>Feb 2016 - Jul 2017</span></div>
+                      </div>
+                      <h4 class="yb-section-title">PHP Web Developer</h4>
+                      <h5>Precise Technology</h5>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div>
+              <h2 class="yb-section-title  uk-heading-line " id="skills">
+                <span>Skills</span>
+              </h2>
+              <div class="yb-margin-top-1 yb-margin-bottom-2">
+                <div class="uk-grid-collapse  uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m uk-text-center" data-uk-grid>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Php.png">
+                      </img>
+                      <h6 class="yb-box-circle-title">PHP</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Vuejs.png"></img>
+                      <h6 class="yb-box-circle-title">Vue.js</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Python.png"></img>
+                      <h6 class="yb-box-circle-title">Python</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Jquery.png"></img>
+                      <h6 class="yb-box-circle-title">Jquery</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Laravel.png"></img>
+                      <h6 class="yb-box-circle-title">Laravel</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Codeigniter.png"></img>
+                      <h6 class="yb-box-circle-title">Codeigniter</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Cakephp.png"></img>
+                      <h6 class="yb-box-circle-title">CakePHP</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Wordpress.png"></img>
+                      <h6 class="yb-box-circle-title">Wordpress</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\React.png">
+                      </img>
+                      <h6 class="yb-box-circle-title">React</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Tailwind.png"></img>
+                      <h6 class="yb-box-circle-title">Tailwind</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Typescript.png"></img>
+                      <h6 class="yb-box-circle-title">Typescript</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Javascript.png"></img>
+                      <h6 class="yb-box-circle-title">Javascript</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Node.png"></img>
+                      <h6 class="yb-box-circle-title">Node.js</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Nextjs w.png"></img>
+                      <h6 class="yb-box-circle-title">Next.js</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Nuxt.png"></img>
+                      <h6 class="yb-box-circle-title">Nuxt.js</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Nest.png"></img>
+                      <h6 class="yb-box-circle-title">Nest.js</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\HTML.png">
+                      </img>
+                      <h6 class="yb-box-circle-title">HTML 5</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\CSS.png"></img>
+                      <h6 class="yb-box-circle-title">CSS 3</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Bootstrap.png"></img>
+                      <h6 class="yb-box-circle-title">Bootstrap</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\MySQL.png"></img>
+                      <h6 class="yb-box-circle-title">MySQL</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Mongo.png"></img>
+                      <h6 class="yb-box-circle-title">Mongo DB</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Postgre sql.png"></img>
+                      <h6 class="yb-box-circle-title">Postgre SQL</h6>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Gitlab.png"></img>
+                      <h6 class="yb-box-circle-title">Gitlab</h6>
+                    </div>
+                  </div>
+                  <div class="yb-bg-soft">
+                    <div class="yb-box-circle">
+                      <img src="src\img\Skills\Git.png"></img>
+                      <h6 class="yb-box-circle-title">Git</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="yb-section yb-section-padding uk-background-cover uk-background-fixed " data-uk-parallax="bgy: -200" data-src="src/img/bg/bg2.jpg" data-uk-img>
+        <div class="yb-overlay-primary uk-position-cover"></div>
+        <div class="uk-container uk-text-center uk-position-relative">
+          <div data-uk-grid class="uk-grid-small  uk-flex-center">
+            <div>
+              <a href="src/cv/Waleed.pdf" class=" yb-btn uk-button uk-button-primary uk-button-large">Download CV</a>
+            </div>
+            <div>
+              <a href="mailto: wzhassan47@gmail.com" class="yb-inner-link yb-btn uk-button uk-button-danger  uk-button-large">Hire Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- end resume section -->
+    <!-- portfolio section -->
+    <section class="yb-section  uk-overflow-hidden" id="portfolio">
+      <div class="yb-section-point-wrapper">
+        <div class="uk-container">
+          <div class="yb-section-point">
+            <sup>04</sup>
+            <span>Portfolio</span>
+          </div>
+        </div>
+      </div>
+      <div class="uk-container ">
+        <div data-uk-grid class="uk-grid-divider">
+          <div class="uk-width-1-4@s uk-visible@s uk-margin-large-bottom yb-section-padding-top" id="portfolio-nav-wrapper">
+            <div data-uk-sticky="bottom: #portfolio-nav-wrapper; offset: 100; media: 650">
+              <ul class="yb-nav-left uk-tab-left uk-tab" data-uk-scrollspy-nav="closest: li; scroll: false; offset: 120">
+                <li class="uk-active">
+                  <a href="#myworks" class="yb-inner-link" data-offset="120">
+                    <span data-uk-icon="minus"></span>
+                    My Works
+                  </a>
+                </li>
+                <li>
+                  <a href="#client" class="yb-inner-link" data-offset="120">
+                    <span data-uk-icon="minus"></span>
+                    Clients
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="uk-width-expand@s yb-section-padding-top">
+            <div>
+              <h2 class="yb-section-title uk-heading-line " id="myworks"><span>My Works</span></h2>
+              <div data-uk-filter="target: .js-filter" class="yb-margin-top-1 yb-margin-bottom-1">
+                <ul class="js-filter uk-child-width-1-2  uk-grid-small" data-uk-grid data-uk-lightbox="animation: fade;  toggle: .yb-lightbox">
+                  <li class="data-web">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/Vfairs.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="website-screenshot" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/Vfairs.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="Virtual Fair Lounge">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="project-vfairs.html" class="uk-transition-slide-right">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="project-vfairs.html" class="show-portfolio">
+                        <div class="yb-work-item-title">
+                          <h5>Vfairs</h5>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-brand data-web">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/Buzzfeed.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="website-screenshot" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/Buzzfeed.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="Buzzfeed">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="project-buzzfeed.html" class="uk-transition-slide-right">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="project-buzzfeed.html" class="show-portfolio">
+                        <div class="yb-work-item-title">
+                          <h5>Buzzfeed</h5>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-web">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/NameHero.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="website-screenshot" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/NameHero.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="NameHero">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="project-namehero.html" class="uk-transition-slide-right">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="project-namehero.html" class="show-portfolio">
+                        <div class="yb-work-item-title">
+                          <h5>NameHero</h5>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-web data-design">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/Finding Mastery.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="website-screenshot" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/Finding Mastery.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="Finding Mastery">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="project-findingmastery.html" class="uk-transition-slide-right">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="project-findingmastery.html" class="show-portfolio">
+                        <div class="yb-work-item-title">
+                          <h5>Finding Mastery</h5>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-design">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/iCrowdnewswire.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="website-screenshot" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/iCrowdnewswire.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="iCrowdNewswire">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="project-icrowdnewsiwre.html" class="uk-transition-slide-right">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="project-icrowdnewsiwre.html" class="show-portfolio">
+                        <div class="yb-work-item-title">
+                          <h5>iCrowdnewswire</h5>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-design">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/Yoga International.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="website-screenshot" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/Yoga International.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="Yoga International">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="project-yogainternational.html" class="uk-transition-slide-right">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="project-yogainternational.html" class="show-portfolio">
+                        <div class="yb-work-item-title">
+                          <h5>Yoga International</h5>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-brand">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/Contentengine LLC.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/Contentengine LLC.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="Contentengine LLC">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="project-contentengine.html" class="uk-transition-slide-right">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="project-contentengine.html" class="show-portfolio">
+                        <div class="yb-work-item-title">
+                          <h5>Content Engine</h5>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                  <li class="data-design">
+                    <div class="yb-work-item uk-transition-toggle">
+                      <div class="yb-work-item-img-wrap">
+                        <div class="yb-work-item-img">
+                          <img src="src/img/empty.png" width="383" height="574" data-src="src/img/work/ApogeeInvent.jpg" class="uk-transition-scale-up uk-transition-opaque" alt="" data-uk-img />
+                        </div>
+                        <div class="yb-work-item-overlay uk-transition-fade uk-position-cover uk-position-small uk-overlay  uk-flex uk-flex-center uk-flex-middle">
+                          <div>
+                            <a href="src/img/work/ApogeeInvent.jpg" class="yb-lightbox uk-transition-slide-left" data-caption="ApogeeInvent">
+                              <span data-uk-icon="icon:plus; ratio:1.2"></span>
+                            </a>
+                            <a href="project-apogeeinvent.html" class="uk-transition-slide-right">
+                              <span data-uk-icon="icon:link; ratio:1.2"></span>
+                            </a>
+                          </div>
+                        </div>
+                      </div>
+                      <a href="project-apogeeinvent.html" class="show-portfolio">
+                        <div class="yb-work-item-title">
+                          <h5>ApogeeInvent</h5>
+                        </div>
+                      </a>
+                    </div>
+                  </li>
+                </ul>
+                <div id="show-portofolio-details" class="uk-modal-full" data-uk-modal>
+                  <div class="uk-modal-dialog ">
+                    <button class="uk-modal-close-full uk-close-large" type="button" data-uk-close></button>
+                    <div id="portofolio-details" data-uk-height-viewport class="uk-animation-toggle uk-overflow-hidden">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <h2 class="yb-section-title uk-heading-line " id="client"><span>Clients</span></h2>
+              <div class="yb-margin-top-1 yb-margin-bottom-2">
+                <div data-uk-grid class="uk-child-width-1-6@m uk-child-width-1-3">
+                  <div>
+                    <div class="yb-client-item">
+                      <img src="src/img/empty.png" width="300" height="300" data-src="src/img/client/01.png" alt="" class="uk-border-rounded" data-uk-img>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-client-item">
+                      <img src="src/img/empty.png" width="300" height="300" data-src="src/img/client/02.png" alt="" class="uk-border-rounded" data-uk-img>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-client-item">
+                      <img src="src/img/empty.png" width="300" height="300" data-src="src/img/client/03.png" alt="" class="uk-border-rounded" data-uk-img>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-client-item">
+                      <img src="src/img/empty.png" width="300" height="300" data-src="src/img/client/04.png" alt="" class="uk-border-rounded" data-uk-img>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-client-item">
+                      <img src="src/img/empty.png" width="300" height="300" data-src="src/img/client/05.png" alt="" class="uk-border-rounded" data-uk-img>
+                    </div>
+                  </div>
+                  <div>
+                    <div class="yb-client-item">
+                      <img src="src/img/empty.png" width="300" height="300" data-src="src/img/client/06.png" alt="" class="uk-border-rounded" data-uk-img>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="yb-border-top yb-border-bottom">
+        <div class="uk-container">
+          <div data-uk-grid class="yb-box-services uk-child-width-1-4@l uk-child-width-1-2 uk-text-center uk-grid-divider">
+            <div>
+              <div class="yb-box-fact">
+                <div class="yb-box-fact-count uk-h3">120+</div>
+                <span class="yb-box-fact-desc ">APIs Developed</span>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-fact">
+                <div class="yb-box-fact-count uk-h3">85+</div>
+                <span class="yb-box-fact-desc">Databases Optimized</span>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-fact">
+                <div class="yb-box-fact-count uk-h3">99%</div>
+                <span class="yb-box-fact-desc">Client Satisfaction</span>
+              </div>
+            </div>
+            <div>
+              <div class="yb-box-fact">
+                <div class="yb-box-fact-count uk-h3">200+</div>
+                <span class="yb-box-fact-desc">Code Reviews</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- end portfolio section -->
+
+    <!-- contact section -->
+    <section class="yb-section yb-border-top" id="contact">
+      <div class="yb-section-point-wrapper">
+        <div class="uk-container">
+          <div class="yb-section-point ">
+            <sup>05</sup>
+            <span>Contact</span>
+          </div>
+        </div>
+      </div>
+      <div class="uk-container">
+          <div class="yb-section-padding">
+              <h2 class="yb-section-title uk-heading-line ">
+                <span>Get in touch</span>
+              </h2>
+              <p class="uk-text-bold">Feel free to contact me</p>
+            <ul class="uk-list uk-list-divider uk-text-small yb-contact-mini">
+              <li class="uk-flex uk-flex-middle">
+                <span data-uk-icon="mail" class="uk-flex-none uk-text-primary "></span>
+                <span>wzhassan47@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+
+      </div>
+    </section>
+    <!-- end contact section -->
+
+
+
+  </main> <!-- end main section -->
+  <!-- main footer -->
+  <footer class="yb-main-footer-wrapper">
+    <div class="waveHorizontals">
+      <div id="waveHorizontal1" class="waveHorizontal" data-uk-img data-src="src/img/bg/wave1.svg"></div>
+      <div id="waveHorizontal2" class="waveHorizontal" data-uk-img data-src="src/img/bg/wave2.svg"></div>
+      <div id="waveHorizontal3" class="waveHorizontal" data-uk-img data-src="src/img/bg/wave3.svg"></div>
+    </div>
+    <a href="#body-app" class="uk-visible@s yb-totop yb-inner-link" data-uk-totop></a>
+    <div class="yb-main-footer">
+      <div class="uk-container">
+        <div data-uk-grid class="uk-child-width-1-2@s">
+          <div class="uk-margin-remove uk-text-left@s">
+            &copy; 2024 Waleed Hassan.
+          </div>
+          <div class="uk-margin-remove uk-text-right@s">
+            <div class="yb-footer-social">
+              <a href="https://github.com/gambeetw">Github</a>
+              <a href="https://www.linkedin.com/in/waleed-hassan1/">Linkedin</a>
+              <!--<a href="#">Twitter</a>-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer><!-- end main footer -->
+
+  <!-- js -->
+  <script src="src/app/js/plugins.min.js"></script>
+  <script src="src/app/js/app.js"></script>
+</body>
+
+</html>
